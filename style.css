@@ -1,10 +1,16 @@
 body {
-    background:#FF8040;
-    font-family:Futura Book
+    font-family: sans-serif;
 }
 
 h1 {
-    text-align:center; 
-    color:black; 
-    background:	#FF4E40
+    text-align: center;
+    font-size: 60px;
+}
+
+p{
+    color: red;
+}
+
+img{ width:20px;
+height : 20px;
 }
