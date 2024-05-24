@@ -1,16 +1,786 @@
 body {
     font-family: sans-serif;
+    background-color: rgb(0, 0, 0);
+}
+
+header {
+    justify-content: space-between;
+    padding: ;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-color: #36bbce;
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    float: right;
+}
+
+nav {
+    border-top: 5px solid white;
+    display: flex;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: rgb(249, 245, 245);
+    text-decoration: none;
 }
 
 h1 {
     text-align: center;
-    font-size: 60px;
+    color: rgb(255, 255, 255);
+    font-size: 36px;
+    margin-top: ;
+    margin-bottom: ;
 }
 
-p{
-    color: red;
+p {
+    font-size: 24px;
 }
 
-img{ width:20px;
-height : 20px;
+.info { 
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+    display: flex;
+}
+
+article {
+    background-color: rgb(255, 255, 255);
+    padding:20px ;
+    width: 400px;
+    margin:20px ;
+    border-radius: 10px;
+}
+
+/* .article-but {
+    text-decoration: none;
+    background-color: rgb(0, 0, 0);
+    color: rgb(255, 255, 255);
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+} */
+
+footer {
+    background-color: rgb(0, 0, 0);
+    padding: ;
+}
+
+footer a {
+    margin-right: ;
+}
+
+footer p {
+    font-size: 24px;
+    color: white;
+}
+
+img {
+    width:300px;
+    height:300px;
+}
+
+
+qq1::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+qq1:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+qq2::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq2:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq3::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq3:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq4::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq4:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq5::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq5:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq6::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq6:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq7::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq7:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq8::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq8:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq9::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq9:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq10::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq10:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq11::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq11:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq12::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq12:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq13::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq13:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq14::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq14:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq15::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq15:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq16::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq16:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq17::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq17:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq18::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq18:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq19::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq19:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq20::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq20:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq21::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq21:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq22::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq22:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq23::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq23:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq24::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq24:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq25::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq25:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq26::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq26:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq27::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq27:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq28::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq28:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+
+
+qq29::before{
+    content: 'Подробнее' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
+}
+qq29:hover::before{
+    content: 'Цена: 23000 \A'
+            'Материал: кожа человека \A'
+            'Размер: 40х50 см' ;
+    background-color: rgb(213, 68, 68);
+    color: rgb(255, 255, 255);
+    font-size: 14px;
+    padding: 10px 75px 10px 75px;
+    border-radius: 10px;
+    display: block;
+    white-space: pre-wrap;
 }
