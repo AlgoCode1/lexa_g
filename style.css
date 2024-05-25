@@ -9,6 +9,11 @@ header {
     margin-bottom: 20px;
 }
 
+header p {
+    position: fixed;
+    right: 20px;
+}
+
 .button {
     background-color: #36bbce;
     color: black;
@@ -87,6 +92,17 @@ footer p {
 img {
     width:300px;
     height:300px;
+}
+
+h2{
+color: white;
+}
+h3{
+color: white;
+}
+
+a{
+    color: white;
 }
 
 
