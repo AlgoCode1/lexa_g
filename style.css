@@ -9,10 +9,6 @@ header {
     margin-bottom: 20px;
 }
 
-header p {
-    position: fixed;
-    right: 20px;
-}
 
 .button {
     background-color: #36bbce;
@@ -50,6 +46,10 @@ p {
     font-size: 24px;
 }
 
+header p {
+    position: fixed;
+    right: 20px;
+}
 .info { 
     flex-wrap: wrap;
     max-width: 1100px;
